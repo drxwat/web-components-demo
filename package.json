@@ -1,0 +1,8 @@
+{
+  "name": "js-9rdktc",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "2.4.3"
+  }
+}

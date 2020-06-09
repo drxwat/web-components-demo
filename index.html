@@ -1,0 +1,15 @@
+<template id="my-greeter-template">
+  <style>
+    span.greeting { color: green; }
+  </style>
+  <div>
+    <span class="greeting"></span>
+    <slot></slot>
+  </div>
+</template>
+
+
+<my-greeter lang="de">Alex</my-greeter>
+<my-greeter>Igor</my-greeter>
+<my-greeter lang="ru">Игорек</my-greeter>
+<my-greeter lang="cn">Игорек</my-greeter>
