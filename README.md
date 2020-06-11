@@ -1,3 +1,3 @@
-# js-9rdktc
+# js-greeter-web-comp
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-9rdktc)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-greeter-web-comp)

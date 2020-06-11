@@ -9,7 +9,7 @@ const GREETINGS = {
   cn: '替罪羊'
 };
 
-let myGreeterTpl = document.getElementById("my-greeter-template");
+let myGreeterTpl = document.getElementById('my-greeter-template');
 
 class MyGreeter extends HTMLElement {
 
@@ -42,6 +42,7 @@ class MyGreeter extends HTMLElement {
   }
 
   disconnectedCallback() {
+    console.log('Destroyed');
   }
 
   attributeChangedCallback(attrName, oldVal, newVal) {
@@ -58,3 +59,4 @@ class MyGreeter extends HTMLElement {
 
 customElements.define('my-greeter', MyGreeter);
 setTimeout(()=> document.querySelector('my-greeter').lang = 'ru', 1500);
+setTimeout(()=> document.querySelectorAll('my-greeter')[2].remove(), 2000);
